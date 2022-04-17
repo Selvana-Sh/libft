@@ -6,12 +6,15 @@
 /*   By: smoin-sh <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 16:31:09 by smoin-sh          #+#    #+#             */
-/*   Updated: 2022/04/10 11:33:15 by smoin-sh         ###   ########.fr       */
+/*   Updated: 2022/04/17 19:53:05 by smoin-sh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/* from : <ctype.h>
+ * Desc : checks if the int passed to it represents an alphabet or a digit.
+*/
 int	ft_isalnum(int n)
 {
 	if ((n >= 'a' && n <= 'z') || (n >= 'A' && n <= 'Z') \
